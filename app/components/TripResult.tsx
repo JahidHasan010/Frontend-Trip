@@ -267,7 +267,7 @@ export default function TripResult({ result, isLoading, statusLog, error }: Trip
       <div className="flex justify-between items-center mb-6 border-b pb-4 border-gray-100">
         <h2 className="text-2xl font-extrabold text-gray-800 flex items-center gap-2">
           <CheckCircle className="w-6 h-6 text-[var(--vacai-gold)]" />
-          Generated AI Itinerary
+          🌍 Tailored Itinerary
         </h2>
 
         {result && !isLoading ? (
