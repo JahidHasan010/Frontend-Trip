@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
+import Link from "next/link"; // 👈 Import the Link component
 import { motion, AnimatePresence } from "framer-motion";
 import TripForm, { TripFormData } from "@/app/components/TripForm";
 import TripResult from "@/app/components/TripResult";
