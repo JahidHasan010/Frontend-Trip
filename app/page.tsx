@@ -132,8 +132,6 @@
 
 
 
-// below code beautifull travel image in Background
-
 // app/page.tsx
 
 "use client";
@@ -183,7 +181,7 @@ export default function HomePage() {
             </Link>
             <div className="space-x-4">
               <a href="#features" className="text-gray-600 hover:text-blue-600 transition">Features</a>
-              
+              <a href="#Sign-Up" className="text-gray-600 hover:text-blue-600 transition">Sign-Up</a>
             </div>
           </div>
         </nav>
@@ -261,4 +259,3 @@ export default function HomePage() {
     </div>
   );
 }
-
