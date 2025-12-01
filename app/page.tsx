@@ -132,6 +132,10 @@
 
 
 
+
+
+// below code beautifull travel image in Background
+
 // app/page.tsx
 
 "use client";
